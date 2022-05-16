@@ -7,11 +7,16 @@ body{
 }
 
 p {
-    background-color:white;
     color: black;
+    margin: 0 auto;
+}
+
+.countdown-div {
+    height:20rem;
+    width:39rem;
+    background-color: white;
     display: inline-flex;
     align-items:center;
-    height:4rem;
-    width:7rem;
-    justify-content: flext-start;
+    justify-content: center;
+    position: absolute;
 }
