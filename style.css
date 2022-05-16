@@ -1,6 +1,17 @@
 /* CLOCK STYLE SHEET */
 body{
-    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
     background-color:steelblue;
     color:white;
+}
+
+p {
+    background-color:white;
+    color: black;
+    display: inline-flex;
+    align-items:center;
+    height:4rem;
+    width:7rem;
+    justify-content: flext-start;
 }
