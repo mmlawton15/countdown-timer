@@ -1,26 +1,29 @@
 /* CLOCK STYLE SHEET */
 body{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin:0;
-    background-color:steelblue;
-    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-color: steelblue;
+    color: white;
 }
 
-.countdown-div {
-    height:20rem;
-    width:39rem;
-    background-color: white;
-    display: inline-flex;
-    align-items:center;
-    justify-content: center;
-    position: absolute;
-    margin: auto;
+.wrapper {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+    color: white;
 }
 
 .container-for-content {
     display:flex;
     justify-content: center;
     margin:auto;
+    text-align:center;
 }
 
 .card {
