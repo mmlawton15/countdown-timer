@@ -9,37 +9,39 @@
 } */
 
 /*Forest*/
-:root {
-    --darkest:;
-    --dark:;
-    --medium:;
-    --light:;
-    --lightest:;
-}
+/* :root {
+    --darkest:#1b512d;
+    --dark:#1c7c54;
+    --medium:#b1cf5f;
+    --light:#73e2a7;
+    --lightest:#def4c6;
+} */
 
-/* 
-:root {
-    --darkest:;
-    --dark:;
-    --medium:;
-    --light:;
-    --lightest:;
-}
+/*Arctic*/
+/* :root {
+    --darkest:#576490;
+    --dark:#7796cb;
+    --medium:#a3bcf9;
+    --light:#c9cad9;
+    --lightest:#d1d2f9;
+} */
 
-:root {
-    --darkest:;
-    --dark:;
-    --medium:;
-    --light:;
-    --lightest:;
-}
+/*Ocean*/
+/* :root {
+    --darkest:#0a2239;
+    --dark:#132e32;
+    --medium:#176087;
+    --light:#1d84b5;
+    --lightest:#53a2be;
+} */
 
-:root {
-    --darkest:;
-    --dark:;
-    --medium:;
-    --light:;
-    --lightest:;
+/*Canyon*/
+/*:root {
+    --darkest:#5f021f;
+    --dark:#660000;
+    --medium:#8c001a;
+    --light:#990033;
+    --lightest:#ff9000;
 } */
 
 
