@@ -1,4 +1,48 @@
-/* CLOCK STYLE SHEET */
+/*COLOR PALETTES*/
+/*Earthy*/
+/* :root {
+    --darkest:#283618;
+    --dark:#bc6c25;
+    --medium:#606c38;
+    --light:#dda15e;
+    --lightest:#fefae0;
+} */
+
+/*Forest*/
+:root {
+    --darkest:;
+    --dark:;
+    --medium:;
+    --light:;
+    --lightest:;
+}
+
+/* 
+:root {
+    --darkest:;
+    --dark:;
+    --medium:;
+    --light:;
+    --lightest:;
+}
+
+:root {
+    --darkest:;
+    --dark:;
+    --medium:;
+    --light:;
+    --lightest:;
+}
+
+:root {
+    --darkest:;
+    --dark:;
+    --medium:;
+    --light:;
+    --lightest:;
+} */
+
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
@@ -10,6 +54,21 @@ body{
     padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.wrapper button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
 
 header {
