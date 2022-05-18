@@ -1,4 +1,4 @@
-//style div/add days, hours, minutes seconds
+//style div/add days, hours, milliseconds
 //add a prompt to ask for date, time and title of event upon button click
 //console log to make sure it's recording, then set to a variable value
 //use local storage or another method to retain this date and time
