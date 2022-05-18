@@ -95,13 +95,6 @@ header {
     color: white;
 }
 
-/* .container-for-content {
-    display:flex;
-    justify-content: center;
-    margin:auto;
-    text-align:center;
-} */
-
 
 /*------------------------------------------------CARD------------------------------------------------*/
 .card {
@@ -121,3 +114,7 @@ header {
     color: black;
     margin: auto;
 }
+
+
+/*------------------------------------------------FOOTER------------------------------------------------*/
+/*color themes will go here for the user to choose after i have figured out the basic timer code*/
