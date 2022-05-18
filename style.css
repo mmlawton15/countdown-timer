@@ -52,25 +52,40 @@ body{
     color: white;
 }
 
+/*------------------------------------------------DIV FOR CONTENT------------------------------------------------*/
+
 .wrapper {
     padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
+    text-align:center;
 }
 
 .wrapper button {
     display: inline-block;
     padding: 15px 25px;
+    margin:16px 16px 16px 20px;
     font-size: 24px;
+    line-height:24px;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: blue;
+    background-color: lightskyblue;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
+}
+
+.wrapper button:hover {
+    background-color: mediumturquoise;
+}
+
+.wrapper button:active {
+    background-color: blue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 header {
@@ -80,13 +95,15 @@ header {
     color: white;
 }
 
-.container-for-content {
+/* .container-for-content {
     display:flex;
     justify-content: center;
     margin:auto;
     text-align:center;
-}
+} */
 
+
+/*------------------------------------------------CARD------------------------------------------------*/
 .card {
     background-color: white;
     border-radius:5px;
