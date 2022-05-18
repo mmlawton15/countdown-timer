@@ -6,11 +6,6 @@ body{
     color:white;
 }
 
-p {
-    color: black;
-    margin: 0 auto;
-}
-
 .countdown-div {
     height:20rem;
     width:39rem;
@@ -26,4 +21,22 @@ p {
     display:flex;
     justify-content: center;
     margin:auto;
+}
+
+.card {
+    background-color: white;
+    border-radius:5px;
+    color: black;
+    font-size: 190px;
+    margin:0 auto;
+    max-width:800px;
+    padding:30px 40px;
+    min-height:300px;
+    text-align: center;
+    vertical-align:middle;
+}
+
+.card p {
+    color: black;
+    margin: auto;
 }
