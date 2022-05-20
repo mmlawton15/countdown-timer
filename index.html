@@ -18,8 +18,14 @@
     <div id="getStartedModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <label for="event-name">What are we counting down to? (3 to 15 characters)</label>
-            <input type="text" id="event-name" name="event-name" required minlength="3" maxlength="15" size="10">
+            <div>
+                <form>
+                    <label for="event-name">What are we counting down to? (3 to 15 characters)</label>
+                    <input type="text" id="event-name" name="event-name" required minlength="3" maxlength="15" size="10">
+                    <label for="event-date-time">Date and Time:</label>
+                    <input type="datetime-local" id="event-time" name="event-time">
+                </form>
+            </div>
         </div>        
     </div>
 
