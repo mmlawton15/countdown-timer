@@ -1,8 +1,9 @@
-//style div/add days, hours, milliseconds
-//add a prompt to ask for date, time and title of event upon button click
-//console log to make sure it's recording, then set to a variable value
+//add days, hours
+//console log to make sure date and time are recording, then set to a variable value
+//make this populate on the screen and persist (title and time included) probably use local storage
 //use local storage or another method to retain this date and time
-//make this populate on the screen
+//make timer stop when hits 0 time left (maybe flash rainbow?)
+//create footer with theme options
 
 //TIME VARIABLES
 const startingMinutes = 10;
