@@ -13,6 +13,7 @@ setInterval(updateCountdown, 1000);
 var modal = document.getElementById("getStartedModal");
 var button = document.getElementById("startButton");
 var span = document.getElementsByClassName("close")[0];
+var letsgobutton = document.getElementById("letsgo");
 
 //Function for time countdown
 function updateCountdown() {
@@ -30,8 +31,13 @@ button.onclick = function() {
     modal.style.display = "block";
 }
 
-//close on click
+//close on click X
 span.onclick = function() {
+    modal.style.display = "none";
+}
+
+//close on let's go button
+letsgobutton.onclick = function () {
     modal.style.display = "none";
 }
 
