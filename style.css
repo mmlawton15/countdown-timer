@@ -128,30 +128,59 @@ header {
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,0.4);
     color: black;
-  }
-  
-  .modal-content {
-    background-color: white;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 60%;
-  }
-  
-  .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
+}
 
+.modal-content {
+background-color: white;
+margin: auto;
+padding: 20px;
+border: 1px solid #888;
+width: 60%;
+}
+
+.close {
+color: #aaaaaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+input {
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing:border-box;
+}
+
+input:focus {
+    border: 2px solid #555;
+}
+
+.submit-button {
+    background-color: lightskyblue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+.submit-button:hover {
+    background-color: darkcyan;
+}
+
+.submit-button:active {
+    background-color: lightseagreen;
+}
 
 /*------------------------------------------------FOOTER------------------------------------------------*/
 /*color themes will go here for the user to choose after i have figured out the basic timer code*/
