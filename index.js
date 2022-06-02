@@ -1,6 +1,8 @@
 //add days, hours
-//console log to make sure date and time are recording, then set to a variable value
-//make this populate on the screen and persist (title and time included) probably use local storage
+//set console.log values to a variable value
+//make event title a string that populates and persists
+//make time a numeric value that populates and persists
+//probably use local storage
 //use local storage or another method to retain this date and time
 //make timer stop when hits 0 time left (maybe flash rainbow?)
 //create footer with theme options
