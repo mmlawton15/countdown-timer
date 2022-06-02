@@ -40,7 +40,7 @@ span.onclick = function() {
     modal.style.display = "none";
 }
 
-//close on let's go button
+//submit and close on let's go button
 letsgobutton.onclick = function () {
     console.log(eventName);
     console.log(eventTime);
