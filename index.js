@@ -16,8 +16,8 @@ var button = document.getElementById("startButton");
 var span = document.getElementsByClassName("close")[0];
 var letsgobutton = document.getElementById("letsgo");
 //DATE AND TIME VARIABLES
-var eventName = document.querySelector('#event-name').value;
-var eventTime = document.querySelector('#event-time').value;
+var eventName = document.getElementById('event-name');
+var eventTime = document.getElementById('event-time');
 
 //Function for time countdown
 function updateCountdown() {
@@ -40,11 +40,11 @@ span.onclick = function() {
     modal.style.display = "none";
 }
 
-//submit and close on let's go button
+//close on let's go button
 letsgobutton.onclick = function () {
-    console.log(eventName);
-    console.log(eventTime);
-    //modal.style.display = "none";
+    console.log(eventName.value);
+    console.log(eventTime.value);
+    modal.style.display = "none";
 }
 
 //close if window is selected
@@ -55,5 +55,5 @@ window.onclick = function(event) {
 }
 
 function enterDateAndTime() {
-
+    
 }
