@@ -15,6 +15,8 @@ var modal = document.getElementById("getStartedModal");
 var button = document.getElementById("startButton");
 var span = document.getElementsByClassName("close")[0];
 var letsgobutton = document.getElementById("letsgo");
+//DATE AND TIME VARIABLES
+
 
 //Function for time countdown
 function updateCountdown() {
@@ -40,6 +42,7 @@ span.onclick = function() {
 //close on let's go button
 letsgobutton.onclick = function () {
     modal.style.display = "none";
+    console.log()
 }
 
 //close if window is selected
