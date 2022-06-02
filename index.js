@@ -16,7 +16,8 @@ var button = document.getElementById("startButton");
 var span = document.getElementsByClassName("close")[0];
 var letsgobutton = document.getElementById("letsgo");
 //DATE AND TIME VARIABLES
-
+var eventName = document.getElementById("event-name").textContent;
+var eventTime = document.getElementById("event-time").textContent;
 
 //Function for time countdown
 function updateCountdown() {
