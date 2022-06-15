@@ -57,5 +57,5 @@ window.onclick = function(event) {
 }
 
 function enterDateAndTime() {
-    
+
 }
